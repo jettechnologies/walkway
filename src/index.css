@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Arima:wght@700&family=Dancing+Script&family=Exo+2:wght@500;600;700&family=GFS+Didot&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-style : normal;
+}
+
+@layer components{
+    .max-container {
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    .button{
+        @apply py-["1.2rem"] px-["3.2rem"] text-center;
+    }
+}
+@layer utilities{
+    .padding-x{
+        @apply px-10 lg:px-32;
+    }
+    .secondary-btn-state{
+        @apply bg-secondary-600 border-primary-500 shadow-secondary-shadow
+    }
+}
