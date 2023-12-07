@@ -5,6 +5,7 @@ import Hero from "./Hero";
 import Offers from "./Offers";
 import Spotlight from "./Spotlight";
 import Testimonial from "./Testimonial";
+import FrameSpotlight from "./FrameSpotlight";
 
 export {
     About,
@@ -13,5 +14,6 @@ export {
     Hero,
     Offers,
     Spotlight,
-    Testimonial
+    Testimonial,
+    FrameSpotlight
 };

@@ -68,6 +68,7 @@ export default {
         "heading-four" : ["28px", "1.5em"],
         "heading-five" : ["24px", "1.5em"],
         "heading-six" : ["20px", "1.5em"],
+        "x-large": ["2rem", "1.6em"],
         "large": ["20px", "1.6em"],
         "base" : ["16px", "1.6em"],
         "caption" : ["12px", "1.6em"]

@@ -1,4 +1,4 @@
-import { model, photographer, fashionDesigner, offer1, offer2, offer3, offer4 } from "./assets";
+import { model, photographer, customer, fashionDesigner, offer1, offer2, offer3, offer4 } from "./assets";
 
 export const users = [
     {
@@ -21,18 +21,45 @@ export const users = [
 export const offers = [
     {
         img: offer1,
-        text: "inclusive of all ages"
+        text: "Inclusive of all ages"
     },
     {
         img: offer2,
-        text: "creative marketplace"
+        text: "Creative marketplace"
     },
     {
         img: offer3,
-        text: "community building"
+        text: "Community building"
     },
     {
         img: offer4,
-        text: "contract building"
+        text: "Contract building"
     }
 ];
+
+export const testimonials = [
+    {
+        id: 1,
+        customerName: 'emily badore',
+        customerRemark: '“Walkway is a God-sent to me. I have always dreamt of becoming a model but never knew how to go about it. I simply signed up and now I am living my dreams."',
+        customerImg : customer
+    },
+    {
+        id: 2,
+        customerName: 'John Doe',
+        customerRemark: '“Walkway is a God-sent to me. I have always dreamt of becoming a model but never knew how to go about it. I simply signed up and now I am living my dreams."',
+        customerImg : customer
+    },
+    {
+        id: 3,
+        customerName: 'Emma Itadori',
+        customerRemark: '“Walkway is a God-sent to me. I have always dreamt of becoming a model but never knew how to go about it. I simply signed up and now I am living my dreams."',
+        customerImg : customer
+    },
+    {
+        id: 4,
+        customerName: 'Tom Chris',
+        customerRemark: '“Walkway is a God-sent to me. I have always dreamt of becoming a model but never knew how to go about it. I simply signed up and now I am living my dreams."',
+        customerImg : customer
+    }
+]
