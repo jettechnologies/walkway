@@ -54,6 +54,7 @@ export default {
       boxShadow: {
         'primary-shadow': '0px 16px 32px 0px rgba(238, 226, 215, 0.24), 0px -16px 32px 0px rgba(238, 226, 215, 0.24)',
         'secondary-shadow' : "0px 16px 32px 0px rgba(238, 226, 215, 0.24), 0px -16px 32px 0px rgba(238, 226, 215, 0.24)",
+        "spotlight" : "0px 8px 16px 0px rgba(2, 1, 1, 0.16)",
       },
       backgroundPosition: {
         'halves': '50% 50%'
@@ -71,8 +72,9 @@ export default {
         "x-large": ["2rem", "1.6em"],
         "large": ["20px", "1.6em"],
         "base" : ["16px", "1.6em"],
+        "input" : ["14px", "1.6em"],
         "caption" : ["12px", "1.6em"]
-      },
+      }
     },
   },
   plugins: [],

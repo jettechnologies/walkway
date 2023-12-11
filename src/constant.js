@@ -1,4 +1,5 @@
-import { model, photographer, customer, fashionDesigner, offer1, offer2, offer3, offer4 } from "./assets";
+import { model, photographer, customer, fashionDesigner, offer1, offer2, offer3, offer4, spotlight1, spotlight2, spotlight3, spotlight4, spotlight5 } from "./assets";
+import { callIcon, facebookIcon, instagramIcon, linkdenIcon, locationIcon, messageIcon, twitterIcon } from "./assets/icons";
 
 export const users = [
     {
@@ -61,5 +62,50 @@ export const testimonials = [
         customerName: 'Tom Chris',
         customerRemark: '“Walkway is a God-sent to me. I have always dreamt of becoming a model but never knew how to go about it. I simply signed up and now I am living my dreams."',
         customerImg : customer
+    }
+]
+
+export const contacts = [
+    {
+        icon: locationIcon,
+        text: "46, Karemiote estate, Magodo, Lagos, Nigeria"
+    },
+    {
+        icon: callIcon,
+        text: "+234-000-000-00"
+    },
+    {
+        icon: messageIcon,
+        text: "helpcenter@walkways.com"
+    }
+]
+
+export const socialIcons = [facebookIcon, twitterIcon, instagramIcon, linkdenIcon];
+
+export const spotlights = [
+    {
+        img: spotlight1,
+        author: "tom john",
+        job: "videographer"
+    },
+    {
+        img: spotlight2,
+        author: "emmanuel",
+        job: "photographer"
+    },
+    {
+        img: spotlight3,
+        author: "ugo tom",
+        job: "model"
+    },
+    {
+        img: spotlight4,
+        author: "john tom",
+        job: "model"
+    },
+    {
+        img: spotlight5,
+        author: "tom john",
+        job: "photographer"
     }
 ]

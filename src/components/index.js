@@ -5,6 +5,7 @@ import Nav from "./Nav";
 import Figure from "./User-figure"
 import OfferCard from "./Offer-card";
 import TestimonialCard from "./testimonial-card";
+import SwiperCarousel from "./SwiperCarousel";
 
 export {
     Button,
@@ -13,5 +14,6 @@ export {
     Nav,
     Figure,
     OfferCard,
-    TestimonialCard
+    TestimonialCard,
+    SwiperCarousel
 };

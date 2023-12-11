@@ -6,9 +6,11 @@ import offer1 from "./offer 1.png";
 import offer2 from "./offer 6.png";
 import offer3 from "./offer 8.png";
 import offer4 from "./offer 7.png";
-import spotlight1 from "./spotlight 1.png";
-import spotlight2 from "./spotlight 2.png";
-import spotlight3 from "./spotlight 3.png";
+import spotlight1 from "./spotlight1.jpg";
+import spotlight2 from "./spotlight2.jpg";
+import spotlight3 from "./spotlight3.jpg";
+import spotlight4 from "./spotlight4.jpg";
+import spotlight5 from "./spotlight5.jpg";
 import frame1 from "./Frame 19.png";
 import frame2 from "./Frame 22.png";
 import frame3 from "./Frame 23.png";
@@ -35,6 +37,8 @@ export {
     spotlight1, 
     spotlight2, 
     spotlight3,
+    spotlight4,
+    spotlight5,
     vector,
     fashion
 };

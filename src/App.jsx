@@ -3,13 +3,15 @@ import { Hero, About, Footer, Users, Offers, Spotlight, Testimonial, FrameSpotli
 function App() {
 
   return(
-    <main className="min-w-full min-h-screen border-4 border-black">
+    <main className="min-w-full min-h-screen">
       <Hero />
       <About />
       <Users />
       <Offers />
+      <Spotlight />
       <Testimonial />
       <FrameSpotlight />
+      <Footer />
     </main>
   );
 }
